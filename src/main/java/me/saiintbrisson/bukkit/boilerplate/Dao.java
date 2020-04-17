@@ -14,17 +14,17 @@ public interface Dao<K, V> {
             byId = defaultSupplier.get();
 
             if(save) {
-                save(byId);
+                save(key, byId);
             }
         }
 
         return byId;
     }
 
-    boolean save(V element);
+    boolean save(K key, V element);
 
-    boolean update(V element);
+    boolean update(K key, V element);
 
-    boolean delete(V element);
+    boolean delete(K key, V element);
 
 }
