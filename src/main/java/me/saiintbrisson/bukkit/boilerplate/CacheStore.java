@@ -86,6 +86,16 @@ public interface CacheStore<K, V> {
      */
     void put(K key, V value, boolean save);
 
+    void update(K key, V value);
+
+    default void update(K key, V value, boolean remove) {
+        update(key, value);
+
+        if(remove) {
+            remove(key, false);
+        }
+    }
+
     /**
      * Removes an element from the in-memory cache.
      *
