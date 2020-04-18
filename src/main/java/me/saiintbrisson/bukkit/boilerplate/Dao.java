@@ -25,6 +25,6 @@ public interface Dao<K, V> {
 
     boolean update(K key, V element);
 
-    boolean delete(K key, V element);
+    boolean delete(K key);
 
 }
