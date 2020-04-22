@@ -8,6 +8,8 @@ public interface SQLAdapter<V> {
 
     V read(ResultSet resultSet) throws SQLException;
 
-    void write(V element, PreparedStatement statement) throws SQLException;
+    void insert(V element, PreparedStatement statement) throws SQLException;
+
+    void update(V element, PreparedStatement statement) throws SQLException;
 
 }
