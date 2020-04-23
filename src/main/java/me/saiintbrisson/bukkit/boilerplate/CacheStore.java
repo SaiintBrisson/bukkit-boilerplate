@@ -54,7 +54,7 @@ public interface CacheStore<K, V> {
      * @return the value returned from the in-memory cache.
      */
     default V getOrDefault(K key, Supplier<V> defaultSupplier, boolean save) {
-        V byId = getOrFetchById(key);
+        V byId = getOrFetchById(key, save);
         if(byId == null) {
             byId = defaultSupplier.get();
 
