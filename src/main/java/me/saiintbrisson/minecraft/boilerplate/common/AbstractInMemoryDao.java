@@ -1,7 +1,7 @@
-package me.saiintbrisson.bukkit.boilerplate.common;
+package me.saiintbrisson.minecraft.boilerplate.common;
 
 import com.google.common.cache.Cache;
-import me.saiintbrisson.bukkit.boilerplate.Dao;
+import me.saiintbrisson.minecraft.boilerplate.Dao;
 
 import java.util.Collection;
 

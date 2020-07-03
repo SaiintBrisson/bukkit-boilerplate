@@ -1,7 +1,7 @@
-package me.saiintbrisson.bukkit.boilerplate.common;
+package me.saiintbrisson.minecraft.boilerplate.common;
 
-import me.saiintbrisson.bukkit.boilerplate.CacheStore;
-import me.saiintbrisson.bukkit.boilerplate.Dao;
+import me.saiintbrisson.minecraft.boilerplate.CacheStore;
+import me.saiintbrisson.minecraft.boilerplate.Dao;
 
 public abstract class AbstractCacheStore<K, V> implements CacheStore<K, V> {
 

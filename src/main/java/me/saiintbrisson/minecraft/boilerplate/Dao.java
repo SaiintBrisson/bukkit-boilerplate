@@ -1,4 +1,4 @@
-package me.saiintbrisson.bukkit.boilerplate;
+package me.saiintbrisson.minecraft.boilerplate;
 
 import java.util.Collection;
 import java.util.function.Supplier;

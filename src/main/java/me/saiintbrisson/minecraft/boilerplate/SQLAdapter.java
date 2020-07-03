@@ -1,4 +1,4 @@
-package me.saiintbrisson.bukkit.boilerplate;
+package me.saiintbrisson.minecraft.boilerplate;
 
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
